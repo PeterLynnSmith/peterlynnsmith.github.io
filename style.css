@@ -1,3 +1,38 @@
+#intro {
+	padding:20px;
+	border-style: solid;
+	margin:20px;
+}
+#turtle-pic {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center; 
+}
+#rar-pic {
+	background-image: url("fotolia_81814808.jpg");
+	height:900px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.one {
+	background-color: red;
+}
 body {
 	background: lightblue;
 }
+a:link {
+	color: red;
+}
+a:visited {
+	color: purple;
+}
+a:hover {
+	color: green;
+}
+@media screen and (max-width: 500px) {
+  img {
+  width: 50%;
+  }
+  main {
+  width: 55%;
+}}
